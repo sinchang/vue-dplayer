@@ -30,12 +30,14 @@
   },
   "author": "sinchang <sinchangwen@gmail.com>",
   "devDependencies": {
+    "@types/hls.js": "^0.12.4",
     "bili": "2.0.0",
     "poi": "9.6.13"
   },
   "license": "MIT",
   "dependencies": {
     "dplayer": "^1.22.2",
+    "hls.js": "^0.12.4",
     "vue-github-badge": "1.0.1"
   }
 }

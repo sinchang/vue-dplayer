@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/hls.js@^0.12.4":
+  version "0.12.4"
+  resolved "https://registry.npm.taobao.org/@types/hls.js/download/@types/hls.js-0.12.4.tgz#6f78acfe2ad6a71ca5df277984a7d2d2a1580a93"
+  integrity sha1-b3is/irWpxyl3yd5hKfS0qFYCpM=
+
 "@types/node@*":
   version "10.3.0"
   resolved "https://registry.npmjs.org/@types/node/-/node-10.3.0.tgz#078516315a84d56216b5d4fed8f75d59d3b16cac"
@@ -2273,7 +2278,7 @@ event-emitter@~0.3.5:
     d "1"
     es5-ext "~0.10.14"
 
-eventemitter3@^3.0.0:
+eventemitter3@3.1.0, eventemitter3@^3.0.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/eventemitter3/-/eventemitter3-3.1.0.tgz#090b4d6cdbd645ed10bf750d4b5407942d7ba163"
 
@@ -2839,6 +2844,14 @@ highlight-es@^1.0.1:
     chalk "^2.4.0"
     is-es2016-keyword "^1.0.0"
     js-tokens "^3.0.0"
+
+hls.js@^0.12.4:
+  version "0.12.4"
+  resolved "https://registry.npm.taobao.org/hls.js/download/hls.js-0.12.4.tgz#c155b7b2825a11117c111b781973c0ffa759006b"
+  integrity sha1-wVW3soJaERF8ERt4GXPA/6dZAGs=
+  dependencies:
+    eventemitter3 "3.1.0"
+    url-toolkit "^2.1.6"
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -6017,6 +6030,11 @@ url-parse@^1.1.8, url-parse@~1.4.0:
   dependencies:
     querystringify "^2.0.0"
     requires-port "^1.0.0"
+
+url-toolkit@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.npm.taobao.org/url-toolkit/download/url-toolkit-2.1.6.tgz#6d03246499e519aad224c44044a4ae20544154f2"
+  integrity sha1-bQMkZJnlGarSJMRARKSuIFRBVPI=
 
 url@^0.11.0:
   version "0.11.0"
